@@ -1,8 +1,14 @@
 # cisterna-irrigation
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24178946.svg)](https://doi.org/10.5281/zenodo.24178946)
+
 Code and data of the article *Cistern-aware autonomous drip irrigation for semi-arid family farms: low-cost probe
 design and embedded stochastic control tested in simulation at ten sites* (submitted to *Computers and Electronics in
 Agriculture*).
+
+Release v1.0.0 is archived in Zenodo: https://doi.org/10.5281/zenodo.24178946 (all versions: https://doi.org/10.5281/zenodo.24178945). Please cite it as:
+
+> Cardoso, J.F., et al., 2026. Cistern-aware autonomous drip irrigation for semi-arid family farms: probe design, embedded stochastic control and 35-year simulations (code and data), version 1.0.0. Zenodo. https://doi.org/10.5281/zenodo.24178946
 
 The package `cisterna` designs and simulates a low-cost autonomous drip controller for the 52 m3 rainwater
 cisterns of the Brazilian semi-arid:

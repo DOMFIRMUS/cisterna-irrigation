@@ -2,6 +2,8 @@ cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
 title: "Cistern-aware autonomous drip irrigation for semi-arid family farms: probe design, embedded stochastic control and 35-year simulations (code and data)"
 version: 1.0.0
+doi: "10.5281/zenodo.24178946"
+date-released: "2026-11-12"
 license: MIT
 repository-code: "https://github.com/DOMFIRMUS/cisterna-irrigation"
 authors:

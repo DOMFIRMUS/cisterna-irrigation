@@ -58,7 +58,7 @@ def fig01():
     box(ax, (4.35, 1.55), 1.35, 0.9, "Filter +\ndrip laterals", water)
     box(ax, (6.15, 0.35), 3.75, 2.55, "", ef.tint(C[5], 0.18))
     ax.text(8.02, 0.55, "Crop root zone (tomato or cowpea)", ha="center", fontsize=8)
-    box(ax, (6.3, 0.95), 1.12, 0.95, "Coated\nPCB probe", elec)
+    box(ax, (6.3, 0.95), 1.0, 0.95, "Coated\nPCB probe", elec)
     box(ax, (7.5, 0.95), 1.12, 0.95, "Oscillator\n(two R)", elec)
     box(ax, (8.7, 0.95), 1.1, 0.95, "Soil\nthermometer", elec)
     box(ax, (3.95, 3.55), 2.75, 1.25, "ESP32 node\npolicy table π(t, x, V)\n+ (θ, σ) inversion table", ef.tint(C[0], 0.35))
@@ -68,7 +68,7 @@ def fig01():
     arrow(ax, (1.85, 2.95), (3.95, 3.95), C[2], ls="--")
     for xs, xe in ((8.06, 6.5), (9.25, 6.7)):
         arrow(ax, (xs, 1.9), (xe, 3.55), C[2], ls="--")
-    arrow(ax, (6.86, 1.9), (7.5, 1.9), ef.INK2, "-")
+    arrow(ax, (7.3, 1.425), (7.5, 1.425), ef.INK2, "-")
     arrow(ax, (4.3, 3.55), (3.3, 2.45), C[1])
     ax.text(3.35, 3.05, "MOSFET\non/off", fontsize=8, color=C[1], ha="center")
     arrow(ax, (7.25, 4.2), (6.7, 4.2), C[3])
