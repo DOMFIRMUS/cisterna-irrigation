@@ -1,0 +1,13 @@
+item,group,qty,unit_brl,source,total_brl
+ESP32 module board (with pulse counter),node,1,40.0,ML listing ESP32-C3 R$ 34-36.50; ESP32 with PCNT priced alike (estimate),40.0
+"Probe PCB, FR-4 1.6 mm, solder mask, 100 x 18 mm",node,1,15.0,estimate (5-board prototype service + shipping),15.0
+74LVC1G14 + 74LVC1G66 + 74LVC1G80 + resistors,node,1,8.0,estimate,8.0
+Waterproof DS18B20 temperature probe,node,1,15.0,estimate,15.0
+Waterproof ultrasonic level sensor JSN-SR04T,node,1,52.0,USD 8.99-10.00 x 5.51 BRL/USD,52.0
+Logic-level MOSFET switch module,node,1,10.0,estimate,10.0
+Buck converter 12 V -> 5 V,node,1,10.0,estimate,10.0
+"IP65 enclosure, cables, connectors",node,1,60.0,estimate,60.0
+PV 50 W + 12 V 7 Ah battery + 10 A PWM controller (kit),power,1,589.99,ML listing ZTROON kit,589.99
+"12 V diaphragm pump, 80 W, 5.5 L/min",power,1,179.55,Magalu listing,179.55
+"Drip hose 16 mm with emitters, 100 m",drip,2,132.0,Magalu listings R$ 99.52-164.61,264.0
+"Disc filter, PE main line, fittings",drip,1,100.0,estimate,100.0

@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "estilo-figuras"
+version = "1.0.0"
+description = "Shared journal figure style (Springer/Elsevier) for the articles of Jean Firmino Cardoso"
+authors = [{ name = "Jean Firmino Cardoso", email = "jean.firmino@ufpe.br" }]
+license = { text = "MIT (code); SIL OFL 1.1 (bundled Source Sans 3 font)" }
+requires-python = ">=3.10"
+dependencies = ["matplotlib>=3.8", "numpy", "pillow"]
+
+[project.optional-dependencies]
+completo = ["cmcrameri>=1.8", "adjustText>=1.0", "pyvista>=0.43"]
+teste = ["pytest"]
+
+[tool.setuptools]
+packages = ["estilo_figuras"]
+
+[tool.setuptools.package-data]
+estilo_figuras = ["*.mplstyle", "fonts/*.ttf", "fonts/*.md"]

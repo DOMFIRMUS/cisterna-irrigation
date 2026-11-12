@@ -1,0 +1,105 @@
+{
+  "title": "Cistern-aware autonomous drip irrigation for semi-arid family farms: probe design, embedded stochastic control and 35-year simulations (code and data)",
+  "upload_type": "software",
+  "version": "1.0.0",
+  "license": "MIT",
+  "language": "eng",
+  "creators": [
+    {
+      "name": "Cardoso, Jean Firmino",
+      "affiliation": "Federal University of Pernambuco (UFPE), Department of Nuclear Energy (DEN), Recife, Brazil",
+      "orcid": "0000-0001-6092-713X"
+    },
+    {
+      "name": "Campos Filho, Manoel Henriques de Sá",
+      "affiliation": "University of Pernambuco (POLI-UPE), Recife, Brazil",
+      "orcid": "0000-0001-9394-7540"
+    },
+    {
+      "name": "Araújo Filho, Hugo Barcelar de",
+      "affiliation": "Federal University of Pernambuco (UFPE), Department of Nuclear Energy (DEN), Recife, Brazil",
+      "orcid": "0009-0002-6244-6166"
+    },
+    {
+      "name": "Vieira Júnior, Clériston Moura",
+      "affiliation": "Federal University of Pernambuco (UFPE), Department of Nuclear Energy (DEN), Recife, Brazil",
+      "orcid": "0000-0002-5424-6378"
+    },
+    {
+      "name": "González Pérez, Yelina",
+      "affiliation": "Federal University of Pernambuco (UFPE), Department of Nuclear Energy (DEN), Recife, Brazil",
+      "orcid": "0009-0009-1431-5314"
+    },
+    {
+      "name": "García-Fornaris, Ivan",
+      "affiliation": "Federal University of Pernambuco (UFPE), Department of Nuclear Energy (DEN), Recife, Brazil",
+      "orcid": "0000-0003-3172-1057"
+    },
+    {
+      "name": "Coutinho, Artur Paiva",
+      "affiliation": "Federal University of Pernambuco (UFPE), Department of Nuclear Energy (DEN), Recife, Brazil",
+      "orcid": "0000-0002-0644-0037"
+    },
+    {
+      "name": "Santos Neto, Severino Martins dos",
+      "affiliation": "Federal University of Pernambuco (UFPE), Department of Nuclear Energy (DEN), Recife, Brazil",
+      "orcid": "0000-0003-2940-2129"
+    },
+    {
+      "name": "Silva, José Roberto da",
+      "affiliation": "Federal University of Pernambuco (UFPE), Department of Nuclear Energy (DEN), Recife, Brazil",
+      "orcid": "0009-0005-7142-5422"
+    },
+    {
+      "name": "Santana, Alexandre Carlos Araújo de",
+      "affiliation": "Federal University of Pernambuco (UFPE), Department of Nuclear Energy (DEN), Recife, Brazil",
+      "orcid": "0000-0002-6717-5396"
+    },
+    {
+      "name": "Gámez Rodríguez, Abel",
+      "affiliation": "Federal University of Pernambuco (UFPE), Department of Nuclear Energy (DEN), Recife, Brazil",
+      "orcid": "0000-0002-1584-6768"
+    },
+    {
+      "name": "Dutra, Emmanuel Damilano",
+      "affiliation": "Federal University of Pernambuco (UFPE), Department of Nuclear Energy (DEN), Recife, Brazil",
+      "orcid": "0000-0002-3245-2795"
+    },
+    {
+      "name": "Reichert, José Miguel",
+      "affiliation": "Federal University of Pernambuco (UFPE), Department of Nuclear Energy (DEN), Recife, Brazil",
+      "orcid": "0000-0001-9943-2898"
+    },
+    {
+      "name": "Milian Pérez, Daniel",
+      "affiliation": "Federal University of Pernambuco (UFPE), Department of Nuclear Energy (DEN), Recife, Brazil",
+      "orcid": "0000-0002-3172-0508"
+    },
+    {
+      "name": "Antonino, Antonio Celso Dantas",
+      "affiliation": "Federal University of Pernambuco (UFPE), Department of Nuclear Energy (DEN), Recife, Brazil",
+      "orcid": "0000-0002-4120-9404"
+    }
+  ],
+  "keywords": [
+    "smart irrigation",
+    "capacitive soil moisture sensor",
+    "stochastic dynamic programming",
+    "rainwater harvesting",
+    "deficit irrigation",
+    "embedded systems",
+    "Brazilian semi-arid",
+    "drip irrigation"
+  ],
+  "access_right": "open",
+  "description": "Python package, experiments, tests, firmware decision module, downloaded climate series (NASA POWER, CHIRPS) and all simulation outputs of the article on cistern-aware autonomous drip irrigation for semi-arid family farms (probe field model, relaxation-oscillator readout, FAO-56 water balance, stochastic dynamic programming policy tables, energy and cost analysis). Code under MIT, data and results under CC BY 4.0.",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/DOMFIRMUS/cisterna-irrigation",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ],
+  "grants": [],
+  "notes": "Funding: CAPES (Finance Code 001); FACEPE (IBPG-1473-3.09/25; APQ-1428-3.01/25, MAISSER-PE); PRH-ANP/FAPESP (2025/17670-6; 2025/03556-7)."
+}

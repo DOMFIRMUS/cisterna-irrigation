@@ -1,0 +1,3 @@
+The data and results in 02_dados/ and 04_resultados/ produced by this study are licensed under the Creative Commons
+Attribution 4.0 International licence (CC BY 4.0), https://creativecommons.org/licenses/by/4.0/.
+The NASA POWER and CHIRPS series are redistributed under the open terms of their providers; cite them as in README.md.

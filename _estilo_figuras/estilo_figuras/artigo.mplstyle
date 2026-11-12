@@ -1,0 +1,111 @@
+# estilo_figuras - journal figure style (Jean Firmino Cardoso, UFPE)
+#
+# Use through the package (registers the bundled Source Sans 3 font and the
+# colormaps first):    import estilo_figuras as ef; ef.use()
+# or directly:          plt.style.use(r"...\estilo_figuras\artigo.mplstyle")
+#
+# Lettering 8-12 pt sans-serif (Springer and Elsevier artwork rules); thin
+# marks; recessive hairline grid; text in ink colours, never in series colours;
+# categorical colours in a fixed, colour-blind-validated order.
+
+## Font ----------------------------------------------------------------------
+font.family:          sans-serif
+font.sans-serif:      Source Sans 3, Arial, Helvetica, DejaVu Sans
+font.size:            8
+mathtext.fontset:     custom
+mathtext.rm:          Source Sans 3
+mathtext.it:          Source Sans 3:italic
+mathtext.bf:          Source Sans 3:bold
+mathtext.sf:          Source Sans 3
+mathtext.fallback:    stixsans
+axes.unicode_minus:   True
+axes.formatter.use_mathtext: True
+
+## Text sizes and ink ----------------------------------------------------------
+text.color:           0b0b0b
+axes.titlesize:       9
+axes.titleweight:     semibold
+axes.titlelocation:   left
+axes.titlepad:        4
+axes.labelsize:       8.5
+axes.labelcolor:      0b0b0b
+axes.labelpad:        3
+xtick.labelsize:      8
+ytick.labelsize:      8
+legend.fontsize:      8
+legend.title_fontsize: 8
+figure.titlesize:     10
+figure.titleweight:   semibold
+
+## Axes, ticks, grid -----------------------------------------------------------
+axes.facecolor:       ffffff
+axes.edgecolor:       52514e
+axes.linewidth:       0.6
+axes.spines.top:      False
+axes.spines.right:    False
+axes.axisbelow:       True
+axes.grid:            True
+axes.grid.axis:       both
+axes.grid.which:      major
+grid.color:           e1e0d9
+grid.linewidth:       0.4
+grid.linestyle:       -
+grid.alpha:           1.0
+axes.prop_cycle:      cycler('color', ['2a78d6', 'eb6834', '1baf7a', 'eda100', 'e87ba4', '008300', '6250d6', 'e34948'])
+
+xtick.color:          52514e
+ytick.color:          52514e
+xtick.direction:      out
+ytick.direction:      out
+xtick.major.size:     3
+ytick.major.size:     3
+xtick.major.width:    0.6
+ytick.major.width:    0.6
+xtick.minor.size:     1.8
+ytick.minor.size:     1.8
+xtick.minor.width:    0.4
+ytick.minor.width:    0.4
+xtick.major.pad:      2.5
+ytick.major.pad:      2.5
+
+## Marks -------------------------------------------------------------------------
+lines.linewidth:      1.2
+lines.markersize:     4.5
+lines.markeredgewidth: 0.6
+lines.solid_capstyle: round
+lines.solid_joinstyle: round
+lines.dash_capstyle:  butt
+patch.linewidth:      0.6
+hatch.linewidth:      0.5
+errorbar.capsize:     2
+scatter.marker:       o
+boxplot.flierprops.markersize:   3
+boxplot.flierprops.markeredgecolor: 52514e
+boxplot.medianprops.color:       0b0b0b
+boxplot.medianprops.linewidth:   1.0
+boxplot.boxprops.linewidth:      0.6
+boxplot.whiskerprops.linewidth:  0.6
+boxplot.capprops.linewidth:      0.6
+
+## Legend --------------------------------------------------------------------------
+legend.frameon:       False
+legend.handlelength:  1.6
+legend.handletextpad: 0.5
+legend.labelspacing:  0.35
+legend.columnspacing: 1.2
+legend.borderaxespad: 0.3
+legend.borderpad:     0.3
+
+## Figure and export -----------------------------------------------------------------
+figure.facecolor:     ffffff
+figure.dpi:           150
+figure.constrained_layout.h_pad: 0.02
+figure.constrained_layout.w_pad: 0.02
+savefig.dpi:          600
+savefig.bbox:         tight
+savefig.pad_inches:   0.02
+savefig.facecolor:    ffffff
+savefig.transparent:  False
+pdf.fonttype:         42
+ps.fonttype:          42
+svg.fonttype:         none

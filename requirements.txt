@@ -1,0 +1,8 @@
+numpy>=2.0
+scipy>=1.13
+pandas>=2.2
+matplotlib>=3.9
+openpyxl>=3.1
+cmcrameri>=1.8
+adjustText>=1.0
+pytest>=8
