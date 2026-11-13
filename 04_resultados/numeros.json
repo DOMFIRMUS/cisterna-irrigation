@@ -253,6 +253,7 @@
  "cowpea_gain_S2_other": 0.162,
  "cowpea_sdp_S0_drought_mean": 0.642,
  "cowpea_threshold_S0_drought_mean": 0.576,
+ "gain_S2_p_max": 3.5961340761701925e-24,
  "tomato_max_gain_area": 125,
  "tomato_max_gain": 0.026,
  "tomato_smallest_area_gain": 0.003,

@@ -183,7 +183,7 @@ def fig05():
     ax.barh(yy - 0.2, cl.rain, 0.4, color=C[0], label="Rainfall (CHIRPS)", **ef.GAP)
     ax.barh(yy + 0.2, cl.et0, 0.4, color=C[1], label="ET0 (FAO-56 PM)", **ef.GAP)
     ax.set_yticks(yy); ax.set_yticklabels(cl.label); ax.set_xlabel("Mean annual depth 1991–2025 (mm)")
-    ax.legend(fontsize=8, loc="lower right")
+    ax.legend(fontsize=8, loc="lower right", bbox_to_anchor=(1, 1.01), ncol=2, borderaxespad=0, frameon=False)
     ax = axs[1]
     v = res[(res.crop == "cowpea") & (res.area_m2 == 200) & (res.controller == "sdp") & (res.soil_sensor == "S0") & (res.year >= 1991)]
     data = [v[v.site == s].v_sow.values for s in cl.site]

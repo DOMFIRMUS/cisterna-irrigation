@@ -15,16 +15,16 @@ TEST_YEARS = range(2011, 2026)        # out-of-sample evaluation, includes the 2
 # CHIRPS 0.05 deg) make sub-kilometre precision irrelevant.
 SITES = [
     # id, name, state, lat, lon, region
-    ("PET", "Petrolina", "PE", -9.39, -40.50, "Sertao do Sao Francisco"),
-    ("CAB", "Cabrobo", "PE", -8.51, -39.31, "Sertao do Sao Francisco"),
-    ("IBI", "Ibimirim", "PE", -8.54, -37.69, "Sertao do Moxoto"),
-    ("SET", "Serra Talhada", "PE", -7.99, -38.30, "Sertao do Pajeu"),
-    ("OUR", "Ouricuri", "PE", -7.88, -40.08, "Sertao do Araripe"),
-    ("ARC", "Arcoverde", "PE", -8.42, -37.05, "Sertao do Moxoto (transition)"),
+    ("PET", "Petrolina", "PE", -9.39, -40.50, "Sertão do São Francisco"),
+    ("CAB", "Cabrobó", "PE", -8.51, -39.31, "Sertão do São Francisco"),
+    ("IBI", "Ibimirim", "PE", -8.54, -37.69, "Sertão do Moxotó"),
+    ("SET", "Serra Talhada", "PE", -7.99, -38.30, "Sertão do Pajeú"),
+    ("OUR", "Ouricuri", "PE", -7.88, -40.08, "Sertão do Araripe"),
+    ("ARC", "Arcoverde", "PE", -8.42, -37.05, "Sertão do Moxotó (transition)"),
     ("SUR", "Surubim", "PE", -7.83, -35.75, "Agreste Setentrional"),
-    ("PAT", "Patos", "PB", -7.02, -37.28, "Sertao Paraibano"),
-    ("QXM", "Quixeramobim", "CE", -5.20, -39.29, "Sertao Central"),
-    ("IRE", "Irece", "BA", -11.30, -41.86, "Chapada Diamantina (north)"),
+    ("PAT", "Patos", "PB", -7.02, -37.28, "Sertão Paraibano"),
+    ("QXM", "Quixeramobim", "CE", -5.20, -39.29, "Sertão Central"),
+    ("IRE", "Irecê", "BA", -11.30, -41.86, "Chapada Diamantina (north)"),
 ]
 SITE_IDS = [s[0] for s in SITES]
 REFERENCE_SITE = "SET"

@@ -126,6 +126,7 @@ def control():
         for c in ("sdp", "threshold"):
             q = dr[(dr.controller == c) & (dr.soil_sensor == "S0")]
             N[f"{crop}_{c}_S0_drought_mean"] = r3(q.yield_ratio.mean())
+    N["gain_S2_p_max"] = max(N["cowpea_gain_S2_p"], N["tomato_gain_S2_p"])  # one p value for both crops (abstract)
     # all areas, perfect sensing, largest gap
     g = te[te.soil_sensor == "S0"].groupby(["crop", "area_m2", "controller"]).yield_ratio.mean().unstack()
     g["gain"] = g.sdp - g.threshold
@@ -164,9 +165,9 @@ def sensitivity():
         def g(crop, c):
             try:
                 x = t.loc[(crop, v), c]
-                return "–" if pd.isna(x) else f"{x:.3f}"
+                return "n.a." if pd.isna(x) else f"{x:.3f}"
             except KeyError:
-                return "–"
+                return "n.a."
         lines.append(f"| {nm} | {g('tomato', 'threshold-S2')} | {g('tomato', 'sdp-S2')} | {g('cowpea', 'threshold-S2')} | "
                      f"{g('cowpea', 'sdp-S2')} | {by.loc[('cowpea', v)] / 1000:.1f} |")
         for crop in ("tomato", "cowpea"):
@@ -205,7 +206,7 @@ def sensor():
     g25 = gp[gp.gap_mm == 0.25].set_index("eps_soil").F
     N["airgap025_drop_eps15_pct"] = int(round(100 * (1 - g25.loc[15.0] / base.loc[15.0])))
     mc = pd.read_csv(S / "monte_carlo_resumo.csv")
-    lines = ["| σ_p (S m⁻¹) | Low-cost class, 22 kΩ | Single, 1 kΩ | Dual, 1 + 2.2 kΩ |", "|---|---|---|---|"]
+    lines = ["| σ~p~ (S m⁻¹) | Low-cost class, 22 kΩ | Single, 1 kΩ | Dual, 1 + 2.2 kΩ |", "|---|---|---|---|"]
     for sp_ in sorted(mc.sigma_p.unique()):
         row = mc[mc.sigma_p == sp_].set_index("method")
         lines.append(f"| {sp_:g} | {row.loc['lowcost', 'rmse']:.3f} ({row.loc['lowcost', 'bias']:+.3f}) | "
