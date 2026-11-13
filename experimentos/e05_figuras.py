@@ -313,7 +313,7 @@ def fig10():
         ax.plot(mid.price, mid.payback_seasons.clip(upper=10), **ef.series(k, line=True),
                 label=f"{crop.capitalize()} ({REF_AREA[crop]} m²)")
     ax.axhline(1, color=ef.INK2, lw=0.6, ls="--")
-    ax.set_xlabel("Produce price (R$ kg⁻¹)"); ax.set_ylabel("Payback of the sensing upgrade (seasons)")
+    ax.set_xlabel("Produce price (BRL kg⁻¹)"); ax.set_ylabel("Payback of the sensing upgrade (seasons)")
     ax.legend(fontsize=8)
     ef.panel_labels(axs)
     save(fig, "fig10_energia_economia")

@@ -1,6 +1,6 @@
 | Variant | Tomato: threshold (S2) | Tomato: SDP (S2) | Cowpea: threshold (S2) | Cowpea: SDP (S2) | Table size, cowpea (kB) |
 |---|---|---|---|---|---|
-| Base case | 0.797 | 0.858 | 0.557 | 0.700 | 51.0 |
+| Base case (as in Table 5) | 0.797 | 0.858 | 0.557 | 0.700 | 51.0 |
 | NASA POWER wind (higher ET0) | 0.655 | 0.715 | 0.359 | 0.484 | 51.0 |
 | Loamy-sand soil | 0.750 | 0.820 | 0.489 | 0.632 | 51.0 |
 | Well-kept catchment, runoff coefficient 0.8 | 0.839 | 0.907 | 0.597 | 0.760 | 51.0 |

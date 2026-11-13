@@ -154,7 +154,7 @@ def sensitivity():
     s = pd.read_csv(RESULTS / "controle" / "sensibilidade.csv")
     s["cfg"] = s.controller + "-" + s.soil_sensor
     t = s.pivot_table(index=["crop", "variant"], columns="cfg", values="yield_ratio", aggfunc="mean")
-    lab = {"base": "Base case", "wind_power": "NASA POWER wind (higher ET0)", "loamy_sand": "Loamy-sand soil",
+    lab = {"base": "Base case (as in Table 5)", "wind_power": "NASA POWER wind (higher ET0)", "loamy_sand": "Loamy-sand soil",
            "runoff_0.8": "Well-kept catchment, runoff coefficient 0.8", "pv50_direct": "Pumping limited by a 50 W module (no battery)", "pv80_direct": "Pumping limited by an 80 W module (no battery)", "lambda_0.005": "Terminal value 0.005 m⁻³",
            "lambda_0.010": "Terminal value 0.010 m⁻³", "grid_11x14": "Coarser table (11 × 14 states)",
            "block_5d": "Table held over 5-day blocks", "block_10d": "Table held over 10-day blocks"}
